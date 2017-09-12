@@ -11804,7 +11804,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 检查你的Python版本</span>
@@ -11840,7 +11840,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
@@ -12019,7 +12019,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 从数据集中移除 &#39;Survived&#39; 这个特征，并将它存储在一个新的变量中。</span>
@@ -12179,7 +12179,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">accuracy_score</span><span class="p">(</span><span class="n">truth</span><span class="p">,</span> <span class="n">pred</span><span class="p">):</span>
@@ -12233,7 +12233,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">predictions_0</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
@@ -12289,7 +12289,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">outcomes</span><span class="p">,</span> <span class="n">predictions</span><span class="p">)</span>
@@ -12330,7 +12330,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">survival_stats</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">outcomes</span><span class="p">,</span> <span class="s1">&#39;Pclass&#39;</span><span class="p">)</span>
@@ -12582,7 +12582,7 @@ meAlSaogE7wkSRVkgpckqYJM8JIkVZAJXpKkCjLBS5JUQf8/+gfHGx9iu0gAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">predictions_1</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
@@ -12591,7 +12591,7 @@ meAlSaogE7wkSRVkgpckqYJM8JIkVZAJXpKkCjLBS5JUQf8/+gfHGx9iu0gAAAAASUVORK5CYII=
     <span class="n">predictions</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">passenger</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
         
-        <span class="k">if</span> <span class="n">passenger</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;female&#39;</span><span class="p">:</span> 
+        <span class="k">if</span> <span class="n">passenger</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;female&#39;</span><span class="p">:</span> 
             <span class="n">predictions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">predictions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>    <span class="c1"># 返回预测结果</span>
@@ -12649,7 +12649,7 @@ meAlSaogE7wkSRVkgpckqYJM8JIkVZAJXpKkCjLBS5JUQf8/+gfHGx9iu0gAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">survival_stats</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">outcomes</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">)</span>
@@ -13127,7 +13127,7 @@ mNAlSaqA/w/pV/HLNksfRwAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">predictions_2</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
@@ -13136,19 +13136,15 @@ mNAlSaqA/w/pV/HLNksfRwAAAABJRU5ErkJggg==
 <span class="sd">            - 如果是男性并且小于10岁则生还 &quot;&quot;&quot;</span> 
     <span class="n">predictions</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">passenger</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
-        <span class="k">if</span> <span class="n">passenger</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;female&#39;</span><span class="p">:</span> 
-                <span class="n">predictions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="k">if</span> <span class="n">passenger</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">&lt;</span><span class="mi">10</span><span class="p">:</span>
-                <span class="n">predictions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">predictions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> 
         
-    <span class="c1"># 返回预测结果</span>
+        <span class="k">if</span> <span class="n">passenger</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;female&#39;</span><span class="ow">or</span> <span class="n">passenger</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span> 
+            <span class="n">predictions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">predictions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>    <span class="c1"># 返回预测结果</span>
     <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
 
 <span class="c1"># 进行预测</span>
-<span class="n">predictions</span> <span class="o">=</span> <span class="n">predictions_2</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">predictions</span> <span class="o">=</span> <span class="n">predictions_1</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
 
 <span class="k">print</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">outcomes</span><span class="p">,</span> <span class="n">predictions</span><span class="p">)</span>
 </pre></div>
@@ -13167,7 +13163,7 @@ mNAlSaqA/w/pV/HLNksfRwAAAABJRU5ErkJggg==
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>预测准确率为 79.35%.
+<pre>预测准确率为 78.68%.
 </pre>
 </div>
 </div>
@@ -13200,7 +13196,7 @@ mNAlSaqA/w/pV/HLNksfRwAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[114]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">survival_stats</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">outcomes</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Sex == &#39;male&#39;&quot;</span><span class="p">,</span> <span class="s2">&quot;Age &gt; 10&quot;</span><span class="p">,</span> <span class="s2">&quot;Pclass == 1&quot;</span><span class="p">,</span><span class="s2">&quot;Parch == 0&quot;</span><span class="p">])</span>
@@ -13448,7 +13444,7 @@ AElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[117]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">predictions_3</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
@@ -13510,7 +13506,7 @@ AElFTkSuQmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>问题4</strong>：请描述你实现80%准确度的预测模型所经历的步骤。您观察过哪些特征？某些特性是否比其他特征更有帮助？你用了什么条件来预测生还结果？你最终的预测的准确率是多少？</p>
-<p><strong>回答</strong>：<em>用上面问题的答案来替换掉这里的文字</em></p>
+<p><strong>回答</strong>：<em>观察了题目提到的 <code>Pclass</code>,<code>SipSp</code>,<code>Age</code>,Sex,Cabin,Fare,Parch,Embarked.使用它们在Excel里面使用过滤筛选，观察Survived的人数，是死亡人数多，还是生存人数多。除了性别意外，Pclass 也是存活率的关键因素，<code>Pcass == 3</code>的平民死亡率很高，是对我最有帮助的属性。而比如 <code>Fare</code> 属性，对死亡率的影响并不明显，不是花钱多的人就能存活，这也让我觉得很欣慰，死亡面前，人人平等。我使用了 Sex, Age , Pclass , Parch 属性，最终准确率为 81.37%</em></p>
 <p><strong>提示</strong>：你需要在下面添加一个代码区域，实现代码并运行来计算准确率。</p>
 
 </div>
@@ -13531,7 +13527,7 @@ AElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>回答</strong>: <em>用你的答案替换掉这里的文字</em></p>
+<p><strong>回答</strong>: <em>在一个真实世界中，我希望预测的结果是100%准确，因为如果我的家人在泰坦尼克号上，我希望确切的知道家人的生死，就算预测结果是99.99,我仍然期望他是那0.01%的幸存者。性别和年龄是关键预测的属性，方法<code>predictions_2</code>中只用到了性别和年龄，预测的准确率就已经达到了78.68%。</em></p>
 
 </div>
 </div>
