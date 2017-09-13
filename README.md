@@ -76,4 +76,4 @@ $ jupyter notebook titanic_survival_exploration.ipynb
 - **Cabin**：乘客所在船舱的编号（可能存在 `NaN`）
 - **Embarked**：乘客上船的港口（C 代表从 Cherbourg 登船，Q 代表从 Queenstown 登船，S 代表从 Southampton 登船）
 
-[一键查看项目](https://nbviewer.jupyter.org/github/lizwangying/TryPython/blob/master/titanic_survival_exploration.ipynb)
+[一键预览项目](https://nbviewer.jupyter.org/github/lizwangying/TryPython/blob/master/titanic_survival_exploration.ipynb)
