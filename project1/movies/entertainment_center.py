@@ -13,3 +13,18 @@ ted2 = media.Movie("ted2","S3AVcCggRnU","https://timgsa.baidu.com/timg?image&qua
 
 movies=[toy_story,zootopia,faceOff,coco,Up,BigHero6,sing,padDingTon,ted2]
 fresh_tomatoes.open_movies_page(movies)
+
+boxTitle = "|  movie title  | trailer_youtube_id |"
+boxCol1 = "  movie title  "
+boxCol2 = "  trailer_youtube_id  "
+boxBorder = "-"*len(boxTitle)
+print(boxBorder)
+print(boxTitle)
+for movie in movies:
+	spacesNum = (len(boxCol1)-len(movie.title))/2
+	spacesNum2 = (len(boxCol2)-len(movie.trailer_youtube_id))/2
+	smaces2 = " "*int(spacesNum2)
+	spaces = " "*int(spacesNum)
+	print("|"+spaces+movie.title+spaces+"|"+smaces2+movie.trailer_youtube_id+smaces2+"|")
+
+print(boxBorder)
