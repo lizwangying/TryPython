@@ -17,6 +17,8 @@ project1: 制作电影网站
 
 ## 项目查看方法：
 ### PrimaryProject0 
+
+All those years , only math hurts me so much......
 [一键预览项目](https://nbviewer.jupyter.org/github/lizwangying/TryPython/blob/master/PrimaryProject0/Stroop.ipynb)  
 
 
