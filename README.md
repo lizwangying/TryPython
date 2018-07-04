@@ -17,11 +17,11 @@ project1: 制作电影网站
 
 ## 项目查看方法：
 ### PrimaryProject0 
-请查看homework.html    
+[一键预览项目](https://nbviewer.jupyter.org/github/lizwangying/TryPython/blob/master/PrimaryProject0/titanic_survival_exploration.ipynb)  
 
 ### project0: 泰坦尼克号生还者预测
 
-[一键预览项目](https://nbviewer.jupyter.org/github/lizwangying/TryPython/blob/master/project0/titanic_survival_exploration.ipynb)
+[一键预览项目](https://nbviewer.jupyter.org/github/lizwangying/TryPython/blob/master/project0/Stroop.ipynb)
 
 [项目README](https://github.com/lizwangying/TryPython/tree/master/project0) 
 
