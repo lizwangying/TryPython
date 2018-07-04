@@ -20,7 +20,10 @@ project1: 制作电影网站
 请查看homework.html    
 
 ### project0: 泰坦尼克号生还者预测
-[见README](https://github.com/lizwangying/TryPython/tree/master/project0) 
+
+[一键预览项目](https://nbviewer.jupyter.org/github/lizwangying/TryPython/blob/master/project0/titanic_survival_exploration.ipynb)
+
+[项目README](https://github.com/lizwangying/TryPython/tree/master/project0) 
 
 ### project1: 制作电影网站
 1. install python (2 or 3)
