@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/liz/anaconda3/envs/python36/bin/python",
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
+}
