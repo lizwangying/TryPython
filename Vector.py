@@ -47,8 +47,12 @@ class Vector(object):
     
     def normalized(self):
         '标准化向量，1.计算出向量大小，2.使向量长度为1'
-        magnitude = self.magnitude()
-        return self.times_scalar(1./magnitude)
+        try:
+            magnitude = self.magnitude()
+            return self.times_scalar(1./magnitude)
+        except ZeroDivisionError:
+            raise Exception("不能标准化0向量")
+
 
     def dot(self, v):
         '向量的点积'
@@ -60,12 +64,15 @@ class Vector(object):
         '向量的夾角計算'
         u1 = self.normalized()
         u2 = v.normalized()
+        
+
+        
 
 
 v1 = Vector([3, 4])
-v2 = Vector([3, 3])
+v2 = Vector([5.581, -2.136])
 print(v1.plus(v2))
 print(v1.minus(v2))
 print(v1.times_scalar(2))
 print(v1.magnitude.__doc__)
-print(v1.normalized())
+print(v2.normalized())
